@@ -60,42 +60,41 @@ int arithmeticOperations(int a, int b)
 int main()
 {
 
-    // // Matrix Multiplication
-    // vector<vector<int>> A = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    // vector<vector<int>> B = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};
-    // vector<vector<int>> C(3, vector<int>(3, 0));
-    // matrixMultiply(A, B, C);
-    // cout << "Matrix Multiplication: " << endl;
-    // for (int i = 0; i < 3; ++i)
-    // {
-    //     for (int j = 0; j < 3; ++j)
-    //     {
-    //         cout << C[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    // Matrix Multiplication
+    vector<vector<int>> A = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    vector<vector<int>> B = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};
+    vector<vector<int>> C(3, vector<int>(3, 0));
+    matrixMultiply(A, B, C);
+    cout << "Matrix Multiplication: " << endl;
+    for (int i = 0; i < 3; ++i)
+    {
+        for (int j = 0; j < 3; ++j)
+        {
+            cout << C[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // // String Manipulation
-    // string str = "Hello, World!";
-    // string reversed = reverseString(str);
-    // cout << "String Manipulation: " << reversed << endl;
+    // String Manipulation
+    string str = "Hello, World!";
+    string reversed = reverseString(str);
+    cout << "String Manipulation: " << reversed << endl;
 
-    // // Sorting Algorithm
-    // vector<int> arr = {64, 34, 25, 12, 22, 11, 90};
-    // bubbleSort(arr);
-    // cout << "Sorting Algorithm: ";
-    // for (int i = 0; i < arr.size(); ++i)
-    // {
-    //     cout << arr[i] << " ";
-    // }
-    // cout << endl;
+    // Sorting Algorithm
+    vector<int> arr = {64, 34, 25, 12, 22, 11, 90};
+    bubbleSort(arr);
+    cout << "Sorting Algorithm: ";
+    for (int i = 0; i < arr.size(); ++i)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 
-    // // Arithmetic Operations
-    // int a = 10, b = 5;
-    // int result = arithmeticOperations(a, b);
-    // cout << "Arithmetic Operations: " << result << endl;
+    // Arithmetic Operations
+    int a = 10, b = 5;
+    int result = arithmeticOperations(a, b);
+    cout << "Arithmetic Operations: " << result << endl;
 
-    // return 0;
+    return 0;
 
-    cout << "Hello, World!" << endl;
 }

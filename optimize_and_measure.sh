@@ -55,4 +55,4 @@ llc -filetype=obj -o main_optimized_comprehensive.o main_optimized_comprehensive
 g++ -o main_optimized_comprehensive main_optimized_comprehensive.o -no-pie
 
 # Measure Execution Time
-python3 time2.py
+python3 timemeasure.py
