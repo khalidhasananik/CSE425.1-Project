@@ -8,7 +8,7 @@ Welcome to our project! This repository explores various compiler optimizations 
 - CLANG
 - G++
 
-If you are struggling to install these tools, follow my article [article](<https://medium.com/@khalid.hasan1/a-beginners-guide-to-installing-compiler-tools-llvm-flex-bison-on-windows-c79374a0c108>).
+If you are struggling to install these tools, follow my [article](<https://medium.com/@khalid.hasan1/a-beginners-guide-to-installing-compiler-tools-llvm-flex-bison-on-windows-c79374a0c108>).
 
 Here, I have made a step-by-step guide on how to install these tools.
 
