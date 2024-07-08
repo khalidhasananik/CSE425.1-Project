@@ -38,6 +38,7 @@ Follow these steps to get your programming language up and running:
 It will take some time to compile.
 
 ## Project Report
+[project report.pdf](https://github.com/user-attachments/files/16132148/project.report.pdf)
 
 Happy coding 🚀
 
