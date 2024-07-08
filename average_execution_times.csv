@@ -1,0 +1,10 @@
+Binary,Average Execution Time (s)
+main_unoptimized,0.0046407091617584224
+main_optimized_O3,0.004759802579879761
+main_optimized_local_1,0.005544381141662598
+main_optimized_local_2,0.004827520370483398
+main_optimized_global_1,0.005123619318008423
+main_optimized_global_2,0.004785581827163697
+main_optimized_inter_1,0.00535698938369751
+main_optimized_inter_2,0.004722424268722534
+main_optimized_comprehensive,0.005016858577728271

@@ -56,3 +56,8 @@ g++ -o main_optimized_comprehensive main_optimized_comprehensive.o -no-pie
 
 # Measure Execution Time
 python3 timemeasure.py
+
+# Measure Average Time
+python3 avgtime.py
+
+
